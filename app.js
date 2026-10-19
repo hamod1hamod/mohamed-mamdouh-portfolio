@@ -134,17 +134,35 @@ document.addEventListener("DOMContentLoaded", () => {
               ${moreTechCount ? `<span class="tech-tag" style="color: var(--accent-cyan);">${moreTechCount}</span>` : ""}
             </div>
 
+            <!-- Prominent Direct Live Link Box -->
+            <div class="project-live-box">
+              <div class="live-link-info">
+                <div class="live-status-indicator">
+                  <span class="live-pulse-dot"></span>
+                  <span>Live Project Link</span>
+                </div>
+                <a href="${proj.liveUrl}" target="_blank" rel="noopener noreferrer" class="live-link-url-text" title="Open ${escapeHtml(proj.title)} Live">
+                  <span>${escapeHtml(proj.liveUrl.replace(/^https?:\/\//, ''))}</span>
+                  <i class="ri-arrow-right-up-line"></i>
+                </a>
+              </div>
+              <button class="copy-mini-btn copy-url-btn" data-url="${proj.liveUrl}" title="Copy Live Link">
+                <i class="ri-file-copy-line"></i>
+                <span>Copy</span>
+              </button>
+            </div>
+
             <div class="project-actions">
               <a href="${proj.liveUrl}" target="_blank" rel="noopener noreferrer" class="btn-live" title="Open Live Project">
                 <i class="ri-external-link-line"></i>
-                <span>Live Demo</span>
+                <span>Open Live Project</span>
               </a>
 
               ${
                 proj.githubUrl
                   ? `<a href="${proj.githubUrl}" target="_blank" rel="noopener noreferrer" class="btn-code" title="View Source Code">
                       <i class="ri-github-line"></i>
-                      <span>Code</span>
+                      <span>GitHub</span>
                     </a>`
                   : ""
               }
@@ -158,6 +176,18 @@ document.addEventListener("DOMContentLoaded", () => {
       `;
       })
       .join("");
+
+    // Attach listeners to "Copy URL" buttons
+    document.querySelectorAll(".copy-url-btn").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const url = btn.getAttribute("data-url");
+        if (url) {
+          navigator.clipboard.writeText(url);
+          showToast(`Copied live link: ${url}`);
+        }
+      });
+    });
 
     // Attach listeners to "View Details" buttons and card clicks
     document.querySelectorAll(".view-details-btn").forEach((btn) => {
