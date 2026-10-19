@@ -2,86 +2,36 @@
 
 Portfolio website for **Mohamed Mamdouh Mohib**, Communication & Electronics Engineering Student specializing in **Programming**, **Industrial Intelligence**, and **Cybersecurity**.
 
-## 🚀 Key Features
-
-- **Project Showcase**:
-  - Live demo links and source code repositories for each project.
-  - Comprehensive engineering descriptions, architecture highlights, and tech stacks.
-  - Category filtering: *Industrial Intelligence*, *Cybersecurity*, *Communication & Electronics*.
-  - Real-time search by project name, description, or tech stack (e.g., YOLO, PyTorch, C++, SCADA).
-- **Interactive UI & Dark Tech Aesthetic**:
-  - Cyber/Industrial electronics theme with glowing accents and responsive grid layout.
-  - Native HTML5 `<dialog>` modal with backdrop blur for project architectural deep-dives.
-  - Interactive "Add / Edit Project" modal to add new projects with instant live preview.
-  - JSON export button for quick backup of added projects.
-- **Direct Contact Integrations**:
-  - **WhatsApp Direct Connect**: Click-to-chat links with pre-composed messages for `+201098641398` (`https://wa.me/201098641398`).
-  - **Instagram Direct Connect**: Profile link to [`@muhammad_mamdou7`](https://www.instagram.com/muhammad_mamdou7?psln=MW44ZTdmd2xsOWNkeA%3D%3D&utm_source=qr).
-  - Floating WhatsApp action button and one-click phone copy.
+🌐 **Live Website:** [https://hamod1hamod.github.io/mohamed-mamdouh-portfolio/](https://hamod1hamod.github.io/mohamed-mamdouh-portfolio/)  
+📦 **GitHub Repository:** [https://github.com/hamod1hamod/mohamed-mamdouh-portfolio](https://github.com/hamod1hamod/mohamed-mamdouh-portfolio)
 
 ---
 
-## 📁 Project Structure
+## 🚀 Featured Real Production Projects
 
-```
-mohamed-mamdouh-portfolio/
-├── index.html          # Main semantic HTML structure & layout
-├── style.css           # Modern dark-tech styles, responsive grid, animations
-├── projects.data.js    # Easy-to-edit JavaScript file containing projects & profile data
-├── app.js              # Filtering, search, modals, WhatsApp composer, and interactions
-└── README.md           # Documentation & deployment guide
-```
+### 1. 🫀 [CardioGem](https://hamod1hamod.github.io/CardioGem/) — AI Fitness & Nutrition Platform
+- **Live Web App:** [https://hamod1hamod.github.io/CardioGem/](https://hamod1hamod.github.io/CardioGem/)
+- **GitHub:** [https://github.com/hamod1hamod/CardioGem](https://github.com/hamod1hamod/CardioGem)
+- **Tech Stack:** TypeScript, React, Tailwind CSS, Vite, Gemini AI, Chart.js, YouTube API
+- **Highlights:** Anonymous-first fitness platform with 15-muscle group exercise form library, verified YouTube demonstrations, Mifflin–St Jeor BMR/TDEE/METs clinical calculators, personalized workout/nutrition plan generator, and an AI fitness coach.
 
----
+### 2. 👟 [MMStore](https://mmstore.me/) — 3D Shoes & Fashion E-Commerce Platform
+- **Live Domain:** [https://mmstore.me/](https://mmstore.me/)
+- **Secret Admin:** [https://mmstore.me/hamoood/](https://mmstore.me/hamoood/)
+- **GitHub:** [https://github.com/hamod1hamod/my-shoes-store](https://github.com/hamod1hamod/my-shoes-store) (and [mmstore-ai-growth-agent](https://github.com/hamod1hamod/mmstore-ai-growth-agent))
+- **Tech Stack:** TypeScript, React / Next.js, Three.js 3D, Firebase Firestore, Tailwind CSS, PWA, Node.js
+- **Highlights:** Commercial fashion storefront on live domain `mmstore.me` with interactive 3D shoe models, ambient cyber particles, smart Arabic WhatsApp checkout flow sent directly to `+201098641398`, an isolated secret admin portal (`/hamoood/`), and an autonomous AI social media marketing growth agent.
 
-## 🛠️ How to Customize Your Projects
-
-You can edit your projects directly in `projects.data.js`:
-
-```javascript
-{
-  id: "your-project-id",
-  title: "Your Project Title",
-  tagline: "Short 1-sentence summary",
-  category: "industrial-ai", // or "cybersecurity" or "electronics"
-  categoryLabel: "Industrial Intelligence",
-  badge: "Featured",
-  liveUrl: "https://your-live-demo-link.com", // <-- PUT YOUR LIVE LINK HERE
-  githubUrl: "https://github.com/your-username/your-repo",
-  image: "https://images.unsplash.com/...",
-  description: "Comprehensive description of what you engineered...",
-  highlights: [
-    "Key achievement 1",
-    "Key achievement 2"
-  ],
-  techStack: ["Python", "C++", "PyTorch", "Docker"]
-}
-```
-
-Or simply click the **"Add / Customize Project"** button directly in the running web interface!
+### 3. 🧠 [Hamosphere](https://hamod1hamod.github.io/hamomap/) (MindForge AI) — Cognitive Mind Mapping Platform
+- **Live Production:** [https://hamod1hamod.github.io/hamomap/](https://hamod1hamod.github.io/hamomap/)
+- **GitHub:** [https://github.com/hamod1hamod/hamomap](https://github.com/hamod1hamod/hamomap)
+- **Tech Stack:** TypeScript, React, Firebase Cloud Firestore, Gemini AI, KaTeX (LaTeX), Tailwind CSS
+- **Highlights:** Cognitive learning knowledge graph system featuring 7+ dynamic mind map topologies (Curved, Radial, Tree, Concept Map, Cornell Notes), SuperMemo SM-2 spaced repetition, active recall concealment, blurting mode, and AI-powered Text-to-MindMap generation.
 
 ---
 
-## 🌐 How to Preview Locally
+## 📱 Direct Contact Channels
 
-Run a simple local web server:
-
-```bash
-cd /home/hamo/.gemini/antigravity/scratch/mohamed-mamdouh-portfolio
-python3 -m http.server 8080
-```
-Then open `http://localhost:8080` in your browser.
-
----
-
-## 🚢 Deploy for Free
-
-### Option 1: GitHub Pages (Recommended)
-1. Push this folder to a GitHub repository named `portfolio` or `<your-username>.github.io`.
-2. Go to **Settings > Pages**.
-3. Under **Branch**, select `main` and root `/`, then click **Save**.
-4. Your portfolio will be live at `https://<your-username>.github.io/portfolio`!
-
-### Option 2: Vercel or Netlify
-1. Drag and drop this folder directly onto [vercel.com](https://vercel.com) or [netlify.com](https://netlify.com).
-2. It deploys automatically in seconds with a free `.vercel.app` or `.netlify.app` domain.
+- **WhatsApp:** [+20 109 864 1398](https://wa.me/201098641398)
+- **Instagram:** [@muhammad_mamdou7](https://www.instagram.com/muhammad_mamdou7?psln=MW44ZTdmd2xsOWNkeA%3D%3D&utm_source=qr)
+- **GitHub:** [github.com/hamod1hamod](https://github.com/hamod1hamod)

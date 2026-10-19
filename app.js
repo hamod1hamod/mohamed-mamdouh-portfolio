@@ -100,9 +100,9 @@ document.addEventListener("DOMContentLoaded", () => {
     projectsGrid.innerHTML = filtered
       .map((proj) => {
         const badgeColorClass =
-          proj.category === "industrial-ai"
+          proj.category === "ai-health" || proj.category === "industrial-ai"
             ? "badge-emerald"
-            : proj.category === "cybersecurity"
+            : proj.category === "knowledge-ai" || proj.category === "cybersecurity"
             ? "badge-violet"
             : "badge-cyan";
 

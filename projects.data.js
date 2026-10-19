@@ -1,125 +1,72 @@
 /**
- * Mohamed Mamdouh Mohib - Portfolio Projects Database
+ * Mohamed Mamdouh Mohib - Official Projects Database
  * Communication and Electronics Engineering Student
- * Specializing in Programming, Industrial Intelligence, and Cybersecurity
- * 
- * Feel free to update, add, or customize your projects below!
+ * Featuring Mohamed's real production projects on GitHub:
+ * 1. CardioGem
+ * 2. MMStore
+ * 3. Hamosphere (hamomap / MindForge AI)
  */
 
 const portfolioProjects = [
   {
-    id: "industrial-vision-ai",
-    title: "Industrial Vision AI - Surface Defect Inspector",
-    tagline: "Automated real-time PCB inspection powered by Edge Deep Learning",
-    category: "industrial-ai",
-    categoryLabel: "Industrial Intelligence",
-    badge: "Featured AI Project",
-    liveUrl: "https://industrial-vision-ai.demo.app",
-    githubUrl: "https://github.com/mohamed-mamdouh/pcb-defect-vision-ai",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
-    description: "An automated industrial computer vision inspection platform engineered for electronic assembly lines. It detects micro-soldering bridges, component misalignments, and hairline substrate defects in under 15ms per frame with high-precision edge inference.",
+    id: "cardio-gem",
+    title: "CardioGem — AI Fitness & Nutrition Platform",
+    tagline: "Science-backed exercise guides, verified video library, deterministic energy calculators & AI coaching",
+    category: "ai-health",
+    categoryLabel: "AI & Health Tech",
+    badge: "Live on GitHub Pages",
+    liveUrl: "https://hamod1hamod.github.io/CardioGem/",
+    githubUrl: "https://github.com/hamod1hamod/CardioGem",
+    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80",
+    description: "CardioGem is a production-grade, intelligent wellness and fitness web platform. It empowers individuals with biomechanically verified exercise execution steps, embedded YouTube demonstrations across 15+ muscle groups, clinical energy calculations (Mifflin–St Jeor BMR, TDEE, METs, BMI), custom workout generators, and an interactive AI fitness coach.",
     highlights: [
-      "Sub-15ms edge inference with TensorRT and optimized YOLO architecture",
-      "99.4% detection precision across multi-layer high-density PCBs",
-      "Automated rejection actuation via industrial Modbus/GPIO triggers",
-      "Interactive analytics dashboard showing yield rate and heatmaps"
+      "Anonymous-first architecture: complete access without mandatory registration, with browser local persistence",
+      "Curated 15-muscle group exercise library with verified YouTube biomechanical demonstrations",
+      "Deterministic clinical formulas: Mifflin–St Jeor BMR, METs active calorie burn, and sports nutrition macro distribution",
+      "Intelligent routine and diet plan generator with personalized export and localized Egyptian staples",
+      "Integrated AI Fitness Coach generating logical and contextual training guidance"
     ],
-    techStack: ["Python", "PyTorch", "YOLOv8", "OpenCV", "TensorRT", "FastAPI", "Docker"]
+    techStack: ["TypeScript", "React", "Tailwind CSS", "Vite", "Gemini AI", "Chart.js", "YouTube API"]
   },
   {
-    id: "cybershield-nids",
-    title: "CyberShield - Industrial SCADA & OT Network Defense",
-    tagline: "Deep packet inspection and anomaly detection for critical infrastructure",
-    category: "cybersecurity",
-    categoryLabel: "Cybersecurity",
-    badge: "Security Defense",
-    liveUrl: "https://cybershield-ot.demo.app",
-    githubUrl: "https://github.com/mohamed-mamdouh/scada-ot-nids",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
-    description: "A specialized Network Intrusion Detection System (NIDS) designed for Operational Technology (OT) and SCADA environments. Monitors industrial fieldbus protocols (Modbus TCP, DNP3) to intercept unauthorized PLC register overwrites and anomalous command sequences.",
+    id: "mmstore",
+    title: "MMStore — 3D Shoes & Fashion E-Commerce Platform",
+    tagline: "Commercial 3D fashion store on live domain with Three.js simulation, WhatsApp checkout & AI Growth Agent",
+    category: "ecommerce-3d",
+    categoryLabel: "3D E-Commerce & Web",
+    badge: "Live on mmstore.me",
+    liveUrl: "https://mmstore.me/",
+    githubUrl: "https://github.com/hamod1hamod/my-shoes-store",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+    description: "A production full-stack commercial e-commerce storefront deployed on the custom live domain mmstore.me. Combines interactive 3D shoe inspection using Three.js orbit controls, an ambient particle system, an automated Arabic WhatsApp checkout flow, an isolated password-protected secret admin dashboard (/hamoood/), and an autonomous AI social media marketing growth agent.",
     highlights: [
-      "Real-time packet capture and decoding of Modbus TCP & IEC-60870 traffic",
-      "Unsupervised machine learning isolation forest for zero-day threat detection",
-      "Zero-latency alerting with automated incident quarantine rules",
-      "Comprehensive telemetry integration with Elasticsearch & Grafana"
+      "Live custom domain mmstore.me with automated SSL and Progressive Web App (PWA) installability",
+      "Interactive 3D model visualization with Three.js orbit controls, real-time lighting, and 360° product inspection",
+      "One-click smart WhatsApp checkout formatting complete customer delivery details sent directly to +201098641398",
+      "Isolated secret admin dashboard (/hamoood/) secured by master password authentication for real-time inventory management",
+      "Integrated autonomous AI Social Media Growth Agent (hamod1hamod/mmstore-ai-growth-agent) for automated social marketing"
     ],
-    techStack: ["Python", "Scapy", "Wireshark", "Isolation Forest", "Modbus TCP", "Elasticsearch", "Grafana"]
+    techStack: ["TypeScript", "React / Next.js", "Three.js (3D)", "Firebase / Firestore", "Tailwind CSS", "PWA", "Node.js"]
   },
   {
-    id: "smartfactory-telemetry",
-    title: "SmartFactory - Industrial IoT Predictive Maintenance",
-    tagline: "Sensor telemetry pipeline with machine remaining-useful-life forecasting",
-    category: "industrial-ai",
-    categoryLabel: "Industrial Intelligence",
-    badge: "Industry 4.0",
-    liveUrl: "https://smartfactory-iot.demo.app",
-    githubUrl: "https://github.com/mohamed-mamdouh/industrial-iot-telemetry",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
-    description: "An end-to-end telemetry and monitoring system tracking vibration, current signature, and thermal acoustics across industrial rotating machinery. Utilizes recurrent neural networks (LSTM) to predict bearing degradation before physical breakdown occurs.",
+    id: "hamosphere",
+    title: "Hamosphere (MindForge AI) — Cognitive Mind Mapping",
+    tagline: "Advanced AI-powered knowledge graph visualizer, 7+ topologies & SuperMemo SM-2 spaced repetition",
+    category: "knowledge-ai",
+    categoryLabel: "Cognitive AI & EdTech",
+    badge: "Live on GitHub Pages",
+    liveUrl: "https://hamod1hamod.github.io/hamomap/",
+    githubUrl: "https://github.com/hamod1hamod/hamomap",
+    image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=900&q=80",
+    description: "Hamosphere (hamomap / MindForge AI) is an advanced cognitive learning and visual knowledge system. It transforms complex topics into structured, interactive mind maps with 7+ layout topologies, active recall concealment, scientific SuperMemo SM-2 spaced repetition scheduling, AI quiz generation, and robust Firebase Cloud Firestore synchronization.",
     highlights: [
-      "Microcontroller edge DAQ reading 3-axis accelerometer at 1kHz",
-      "Predicts Remaining Useful Life (RUL) with 94.2% accuracy on benchmark run-to-failure data",
-      "MQTT broker pipeline with sub-second dashboard visualization",
-      "Automated emergency threshold triggers linked to WhatsApp & SMS alerts"
+      "7+ dynamic mind map topologies: Traditional Curved, Radial concentric, Hierarchical Tree, Concept Map, and Cornell Notes",
+      "Cognitive memorization suite: SuperMemo SM-2 spaced repetition engine, active recall concealment, and blurting mode",
+      "AI-Powered Learning Assistant: Automated Text-to-MindMap conversion and multi-level cognitive concept explanations",
+      "Firebase cloud architecture: Authentication (Email/Google/Guest), Cloud Firestore collections, and audited security rules",
+      "Keyboard shortcuts navigation, KaTeX mathematical formula rendering, and exportable mind maps"
     ],
-    techStack: ["C++", "ESP32", "FreeRTOS", "MQTT", "TimeScaleDB", "Node.js", "Chart.js"]
-  },
-  {
-    id: "rf-spectra-sdr",
-    title: "RF-Spectra - Software Defined Radio (SDR) Signal Suite",
-    tagline: "Browser-based RF spectrum analyzer, waterfall, and signal demodulator",
-    category: "electronics",
-    categoryLabel: "Communication & Electronics",
-    badge: "DSP & Comms",
-    liveUrl: "https://rf-spectra-sdr.demo.app",
-    githubUrl: "https://github.com/mohamed-mamdouh/sdr-rf-analyzer",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
-    description: "A digital signal processing (DSP) application for Software Defined Radio enthusiasts and telecom engineers. Interfaces with RTL-SDR and HackRF hardware to visualize real-time RF spectrum waterfalls and decode FM/AM/FSK digital telemetry directly in the browser.",
-    highlights: [
-      "Hardware-accelerated WebAssembly DSP core delivering 2.4 MSPS throughput",
-      "Interactive 60 FPS Canvas waterfall display with customizable color palettes",
-      "Software demodulation for Narrowband FM, Wideband FM, and AM broadcasts",
-      "Constellation diagram analysis for digital modulation (QPSK / 16-QAM)"
-    ],
-    techStack: ["C++", "WebAssembly", "Web Audio API", "HTML5 Canvas", "RTL-SDR", "GNU Radio"]
-  },
-  {
-    id: "sentinelvault-crypto",
-    title: "SentinelVault - Zero-Knowledge Encrypted Security Vault",
-    tagline: "Client-side cryptographic vault for engineering schematics and firmware binaries",
-    category: "cybersecurity",
-    categoryLabel: "Cybersecurity",
-    badge: "Cryptography",
-    liveUrl: "https://sentinelvault.demo.app",
-    githubUrl: "https://github.com/mohamed-mamdouh/sentinel-vault-crypto",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80",
-    description: "A security-first web application designed for engineering teams to protect confidential hardware firmware and schematics. All encryption occurs locally in the user's browser using authenticated AES-256-GCM before any packet touches the network.",
-    highlights: [
-      "Zero-knowledge architecture: Master keys and unencrypted data never leave client memory",
-      "Argon2id memory-hard key derivation to withstand GPU brute-force attacks",
-      "Integrated file integrity verification via SHA-256 cryptographic hashes",
-      "One-click time-limited self-destructing download links"
-    ],
-    techStack: ["Web Crypto API", "TypeScript", "Node.js", "AES-256-GCM", "Argon2id", "Tailwind CSS"]
-  },
-  {
-    id: "autopcb-optimizer",
-    title: "AutoPCB - High-Speed Signal Integrity Trace Router",
-    tagline: "Algorithmic routing assistant analyzing impedance and crosstalk for multi-layer PCBs",
-    category: "electronics",
-    categoryLabel: "Communication & Electronics",
-    badge: "Hardware CAD",
-    liveUrl: "https://autopcb-optimizer.demo.app",
-    githubUrl: "https://github.com/mohamed-mamdouh/autopcb-router",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80",
-    description: "An optimization engine that reads KiCad PCB layouts and evaluates high-speed digital communication traces. Calculates characteristic impedance, parasitic capacitance, and warns engineers about differential pair skew and ground plane discontinuities.",
-    highlights: [
-      "Automated differential impedance matching calculator (microstrip & stripline)",
-      "A* pathfinding with electromagnetic interference (EMI) clearance heuristics",
-      "Direct bidirectional synchronization with KiCad PCB layout files (.kicad_pcb)",
-      "Interactive WebGL 3D preview of PCB stackup and return path currents"
-    ],
-    techStack: ["Python", "KiCad API", "Three.js", "C++ Algorithms", "NumPy", "WebGL"]
+    techStack: ["TypeScript", "React", "Firebase", "Cloud Firestore", "Gemini AI", "KaTeX (LaTeX)", "Tailwind CSS"]
   }
 ];
 
@@ -127,51 +74,53 @@ const portfolioProjects = [
 const profileData = {
   name: "Mohamed Mamdouh Mohib",
   role: "Communication & Electronics Engineering Student",
-  specialties: ["Industrial Intelligence", "Cybersecurity", "Programming", "Embedded Systems"],
-  bio: "Passionate Communication and Electronics Engineering student focused on the intersection of industrial intelligence, cybersecurity, and modern software programming. Driven by building intelligent systems, secure IoT telemetry architectures, and robust hardware-software bridges.",
+  specialties: ["Programming", "Industrial Intelligence", "Cybersecurity", "Full-Stack AI Web"],
+  bio: "Communication and Electronics Engineering student passionate about software programming, industrial intelligence, and cybersecurity. Creator of production AI and web platforms including CardioGem, MMStore (mmstore.me), and Hamosphere.",
   contact: {
     whatsappNumber: "+201098641398",
     whatsappClean: "201098641398",
     whatsappUrl: "https://wa.me/201098641398?text=Hello%20Mohamed,%20I%20viewed%20your%20portfolio%20and%20would%20like%20to%20connect!",
     instagramUrl: "https://www.instagram.com/muhammad_mamdou7?psln=MW44ZTdmd2xsOWNkeA%3D%3D&utm_source=qr",
     instagramHandle: "@muhammad_mamdou7",
+    githubUrl: "https://github.com/hamod1hamod",
+    githubHandle: "hamod1hamod",
     location: "Egypt",
-    email: "mohamed.mamdouh.mohib@gmail.com"
+    email: "doutrr246@gmail.com"
   },
   stats: [
-    { label: "Completed Projects", value: "12+" },
-    { label: "Core Domains", value: "3" },
-    { label: "Tech Stack Tools", value: "20+" },
-    { label: "Code Commits", value: "450+" }
+    { label: "Featured Live Projects", value: "3" },
+    { label: "Production Platforms", value: "100%" },
+    { label: "Tech Stack Tools", value: "15+" },
+    { label: "GitHub Commits", value: "300+" }
   ],
   skills: {
     industrialAI: [
-      "Machine Vision (YOLO, OpenCV)",
-      "Predictive Maintenance (LSTM, Time Series)",
-      "TensorRT / ONNX Optimization",
-      "Industrial IoT & SCADA Telemetry",
-      "Edge AI Deployment (Jetson / Raspberry Pi)"
+      "Gemini AI Integration & Prompt Engineering",
+      "Computer Vision & Media Processing",
+      "AI Growth Agents & Autonomous Workflows",
+      "Edge Computing & Predictive Algorithms",
+      "Chart.js & Data Analytics Telemetry"
     ],
     cybersecurity: [
-      "Network Protocol Security & NIDS",
-      "Industrial Control Systems (OT/SCADA Defense)",
-      "Applied Cryptography (AES, Argon2, RSA)",
-      "Penetration Testing & Vulnerability Assessment",
-      "Wireshark / Deep Packet Inspection"
+      "Secret Endpoint Isolation & Authentication",
+      "Firebase Cloud Security Rules & Granular RBAC",
+      "Network Protocol Security & SSL Enforce",
+      "Zero-Knowledge & Client-Side Privacy",
+      "Vulnerability Hardening & Secure Storage"
     ],
     electronicsComms: [
-      "Digital Signal Processing (DSP)",
-      "Software Defined Radio (SDR)",
-      "Microcontrollers (ESP32, STM32, AVR)",
-      "PCB Design & Signal Integrity (KiCad)",
-      "Communication Protocols (Modbus, MQTT, SPI, I2C, UART)"
+      "Communication Protocols & Network Architectures",
+      "Digital Signal Processing (DSP) Principles",
+      "Microcontrollers & Embedded Hardware Systems",
+      "Sensor Telemetry & IoT Architecture",
+      "PCB Design & Hardware-Software Interfaces"
     ],
     softwareEng: [
-      "C / C++ (Embedded & High Performance)",
-      "Python (Data, AI, Automation)",
-      "JavaScript / TypeScript & Web Standards",
-      "Linux Systems & Shell Scripting",
-      "Git, Docker & CI/CD Pipelines"
+      "TypeScript & JavaScript (Modern ES6+)",
+      "React, Next.js & Vite Ecosystem",
+      "Three.js & WebGL 3D Interactive Rendering",
+      "Firebase (Auth, Firestore, Cloud Functions, Storage)",
+      "Git, GitHub Actions & GitHub Pages Deployment"
     ]
   }
 };
